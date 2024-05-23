@@ -5,7 +5,7 @@ import { appName, appDescription } from '../constants'
 
 
 defineOgImageComponent('NuxtSeo', {
-  title: appName,
+  title: 'Khaled Waleed',
   description: appDescription,
   theme: '#0ea5e9',
   colorMode: 'dark',
