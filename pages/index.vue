@@ -1,8 +1,14 @@
 <script setup lang="ts">
 const heading = 'Khaled Waleed'
 
-defineOgImage({
-  component: 'OgImage',
+import { appName, appDescription } from '../constants'
+
+
+defineOgImageComponent('NuxtSeo', {
+  title: appName,
+  description: appDescription,
+  theme: '#0ea5e9',
+  colorMode: 'dark',
 })
 
 const isFullScreen = ref(false)
