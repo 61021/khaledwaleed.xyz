@@ -2,7 +2,7 @@
 const socials = ref([
   {
     icon: 'i-ph-github-logo',
-    link: 'https://github.com/foxilated/',
+    link: 'https://github.com/61021/',
   },
   {
     icon: 'i-ph-linkedin-logo',
@@ -22,7 +22,7 @@ const socials = ref([
   },
   {
     icon: 'i-ph-envelope-simple',
-    link: 'mailto:hi@khaledwaleed.xyz',
+    link: 'mailto:contact@khaledwaleed.xyz',
   },
   {
     icon: 'i-ph-phone',

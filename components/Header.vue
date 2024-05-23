@@ -7,4 +7,4 @@
 
     <ToggleDark />
   </header>
-</template>
+</template

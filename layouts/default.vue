@@ -1,21 +1,10 @@
 <script setup lang="ts">
-const isMounted = ref(false)
-
-onMounted(() => {
-  setTimeout(() => {
-    isMounted.value = true
-  }, 1000)
-})
-
 const copyRight = 'CC BY-NC-SA 4.0 2019-PRESENT © Khaled Waleed'
 </script>
 
 <template>
-  <Transition name="fade" mode="in-out">
-    <Loader v-if="!isMounted" />
 
     <main
-      v-else
       class="min-h-screen duration-300"
       bg="background dark:background-dark"
       px="6 lg:16 xxl:80"
@@ -36,8 +25,9 @@ const copyRight = 'CC BY-NC-SA 4.0 2019-PRESENT © Khaled Waleed'
         class="duration-300"
         v-text="copyRight"
       />
+
+
     </main>
-  </Transition>
 </template>
 
 <style scoped>

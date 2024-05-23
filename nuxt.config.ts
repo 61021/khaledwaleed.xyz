@@ -1,4 +1,4 @@
-import { appDescription } from './constants/index'
+import { appName, appDescription } from './constants/index'
 
 export default defineNuxtConfig({
   modules: [
@@ -7,7 +7,16 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxtjs/color-mode',
     'nuxt-og-image',
+    "@nuxtjs/seo",
+    "@nuxt/image"
   ],
+
+  site: {
+    url: 'https://khaledwaleed.xyz',
+    name: appName,
+    description: appDescription,
+    defaultLocale: 'en',
+  },
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
@@ -53,9 +62,7 @@ export default defineNuxtConfig({
     },
   },
 
-  site: {
-    url: 'https://khaledwaleed.xyz',
-  },
+
 
   devtools: {
     enabled: true,

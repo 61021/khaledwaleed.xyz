@@ -10,25 +10,26 @@ const isFullScreen = ref(false)
 
 <template>
   <main
-    flex="~ gap4 lg:gap12 xxl:gap16 items-center col lg:row-reverse xxl:justify-between"
+    flex="~ gap4 lg:gap12 xxl:gap16 items-center col lg:row-reverse lg:justify-between"
     class="h-full w-full"
   >
-    <img
+    <NuxtImg
       class="aspect-square w-full object-cover"
       bg="background dark:background-dark"
       src="/images/khaled-waleed.jpg"
       alt="Khaled Waleed Portrait"
-      w="lg:50% xxl:120"
+      w="lg:120"
 
       :class="{
         'h-screen! xxl:w-full! object-contain! border-0! top-0! left-0! z55! fixed!': isFullScreen,
       }"
       border="2 transparent dark:primary-text-dark"
       @click="isFullScreen = !isFullScreen"
-    >
+      placeholder
+    />
     <div
       flex="~ col gap12 lg:gap32"
-      w="lg:50% xxl:full"
+      w="xxl:full"
     >
       <div flex="~ gap4 xxl:gap6 col">
         <h1
@@ -42,15 +43,17 @@ const isFullScreen = ref(false)
           text="secondary-text xxl:lg dark:secondary-text-dark"
           class="duration-300"
         >
-      Software Engineering Team Lead at
-
+        Digital Transformation Strategist at 
           <a
-            href="https://vitex.dev"
+            href="https://morshed-bdc.com"
             target="_blank"
-            class="text-secondary-text duration-300 dark:text-secondary-text-dark hover:text-primary hover:dark:text-primary-dark"
+            class="text-secondary-text font-bold duration-300 dark:text-secondary-text-dark hover:text-primary hover:dark:text-primary-dark"
           >
-            vitex.
-          </a>
+            Morshed Group
+          </a>. I write about software, 
+          <br>
+          engineering, and digital transformation.
+
         </p>
       </div>
       <Socials />

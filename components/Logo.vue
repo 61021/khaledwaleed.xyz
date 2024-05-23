@@ -5,7 +5,8 @@ defineProps<{
 </script>
 
 <template>
-  <div
+  <NuxtLink
+  to="/"
     class="relative"
     flex="~ items-center justify-center"
   >
@@ -25,5 +26,5 @@ defineProps<{
         </clipPath>
       </defs>
     </svg>
-  </div>
+  </NuxtLink>
 </template>
