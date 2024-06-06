@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const heading = 'Khaled Waleed'
 
-import { appName, appDescription } from '../constants'
+import { appDescription } from '../constants'
 
 
 defineOgImageComponent('NuxtSeo', {
@@ -49,13 +49,13 @@ const isFullScreen = ref(false)
           text="secondary-text xxl:lg dark:secondary-text-dark"
           class="duration-300"
         >
-        Digital Transformation Strategist at 
+        Digital Transformation Specialist at 
           <a
             href="https://morshed-bdc.com"
             target="_blank"
             class="text-secondary-text font-bold duration-300 dark:text-secondary-text-dark hover:text-primary hover:dark:text-primary-dark"
           >
-            Morshed Group
+            Morshed
           </a>. I write about software, 
           <br>
           engineering, and digital transformation.
