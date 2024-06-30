@@ -20,11 +20,15 @@ const copyRight = 'CC BY-NC-SA 4.0 2019-PRESENT © Khaled Waleed'
         <slot />
       </div>
 
-      <span
-        text="secondary-text dark:secondary-text-dark xs sm:sm"
-        class="duration-300"
-        v-text="copyRight"
-      />
+      <span text="secondary-text dark:secondary-text-dark xs sm:sm">
+        Built by <a
+          href="https://moshafer.com"
+          target="_blank"
+          class="text-white hover:text-[#22c55e] duration-500"
+        >
+          Moshafer
+        </a>
+      </span>
 
 
     </main>
