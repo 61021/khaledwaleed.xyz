@@ -26,11 +26,7 @@ const isFullScreen = ref(false)
       alt="Khaled Waleed Portrait"
       w="lg:120"
 
-      :class="{
-        'h-screen! xxl:w-full! object-contain! border-0! top-0! left-0! z55! fixed!': isFullScreen,
-      }"
       border="2 transparent dark:primary-text-dark"
-      @click="isFullScreen = !isFullScreen"
       placeholder
     />
     <div
@@ -51,14 +47,13 @@ const isFullScreen = ref(false)
         >
         Digital Transformation Specialist at 
           <a
-            href="https://morshed-bdc.com"
+            href="https://moshafer.com"
             target="_blank"
             class="text-secondary-text font-bold duration-300 dark:text-secondary-text-dark hover:text-primary hover:dark:text-primary-dark"
           >
-            Morshed
-          </a>. I write about software, 
-          <br>
-          engineering, and digital transformation.
+            Moshafer
+          </a>. Software Engineer,
+          <br> Artist, and Libre Advocate.
 
         </p>
       </div>
