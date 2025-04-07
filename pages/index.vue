@@ -11,7 +11,6 @@ defineOgImageComponent('NuxtSeo', {
   colorMode: 'dark',
 })
 
-const isFullScreen = ref(false)
 </script>
 
 <template>
@@ -45,13 +44,13 @@ const isFullScreen = ref(false)
           text="secondary-text xxl:lg dark:secondary-text-dark"
           class="duration-300"
         >
-        Digital Transformation Specialist at 
+        Software Developer at 
           <a
-            href="https://moshafer.com"
+            href="https://qi.iq"
             target="_blank"
             class="text-secondary-text font-bold duration-300 dark:text-secondary-text-dark hover:text-primary hover:dark:text-primary-dark"
           >
-            Moshafer
+            Qi
           </a>. Software Engineer,
           <br> Artist, and Libre Advocate.
 
