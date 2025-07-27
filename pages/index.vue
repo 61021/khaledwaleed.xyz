@@ -1,16 +1,5 @@
 <script setup lang="ts">
 const heading = 'Khaled Waleed'
-
-import { appDescription } from '../constants'
-
-
-defineOgImageComponent('NuxtSeo', {
-  title: 'Khaled Waleed',
-  description: appDescription,
-  theme: '#0ea5e9',
-  colorMode: 'dark',
-})
-
 </script>
 
 <template>
