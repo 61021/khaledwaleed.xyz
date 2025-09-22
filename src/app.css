@@ -65,11 +65,11 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-	@apply rounded-full bg-gray-800;
+	@apply rounded-full bg-slate-800;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	@apply bg-gray-700;
+	@apply bg-slate-700;
 }
 
 /* Focus styles */

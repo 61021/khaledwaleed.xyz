@@ -12,51 +12,35 @@ title: "My Likes"
 <section>
 	<div class="space-y-8">
 		<h2 class="text-center text-2xl font-semibold text-white">
-			<code class="rounded border border-gray-700 bg-gray-900 px-3 py-1 text-green-400">grep -r "interests" ~/life/</code>
+			<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400">grep -r "interests" ~/life/ (COMING SOON)</code>
 		</h2>
 	</div>
 </section>
 
-<div class="mt-12 mx-auto max-w-4xl prose prose-invert prose-lg prose-h1:text-cyan-400 prose-h1:font-mono prose-h1:text-xl prose-ul:text-gray-300">
+<div class="mt-12 mx-auto max-w-4xl prose prose-invert prose-lg prose-h1:text-cyan-400 prose-h1:font-mono prose-h1:text-xl prose-ul:text-slate-300">
 
 # [#] Food
 
-- Ramen
-- Middle Eastern
-- Coffee
-- Dark Chocolate  
-- Sushi
+- 1
+- 2
+- 3
+- 4
+- 5
 
 # [*] Sports
 
-- Tennis
-- Swimming
-- Cycling
-- Chess
-- Hiking
+- 1
+- 2
+- 3
+- 4
+- 5
 
 # [+] Tech
 
-- Mechanical Keyboards
-- Linux Ricing
-- Self-hosting
-- Open Source
-- Vim
-
-# [~] Media
-
-- Sci-fi Movies
-- Tech Documentaries
-- Podcasts
-- Audiobooks
-- Anime
-
-# [&] Hobbies
-
-- Photography
-- Music Production
-- Gaming
-- Reading
-- Cooking
+- 1
+- 2
+- 3
+- 4
+- 5
 
 </div>

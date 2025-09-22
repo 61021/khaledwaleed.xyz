@@ -17,7 +17,7 @@
 
 <div class="min-h-screen bg-black text-white">
 	<!-- Navigation -->
-	<nav class="border-b border-gray-800 bg-black/95 backdrop-blur">
+	<nav class="border-b border-slate-800 bg-black/95 backdrop-blur">
 		<div class="mx-auto max-w-4xl px-6 sm:px-8">
 			<div class="flex h-16 items-center justify-between">
 				<div class="flex items-center space-x-8">
@@ -31,7 +31,7 @@
 									$page.url.pathname
 								)
 									? 'border-b border-green-400 text-green-300'
-									: 'text-gray-400 hover:text-white'}"
+									: 'text-slate-400 hover:text-white'}"
 							>
 								./{item.name.toLowerCase()}
 							</a>

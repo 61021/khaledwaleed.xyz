@@ -40,15 +40,15 @@
 	<section class="space-y-8 text-center">
 		<div class="space-y-4">
 			<h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-				<code class="rounded border border-gray-700 bg-gray-900 px-4 py-2 text-green-400"
+				<code class="rounded border border-slate-700 bg-slate-900 px-4 py-2 text-green-400"
 					>man khaled</code
 				>
 			</h1>
 			<div
-				class="mx-auto max-w-3xl rounded-lg border border-gray-700 bg-black/60 p-6 text-left text-sm"
+				class="mx-auto max-w-3xl rounded-lg border border-slate-700 bg-black/60 p-6 text-left text-sm"
 			>
-				<div class="mb-4 text-gray-300">KHALED(1) Developer Manual KHALED(1)</div>
-				<div class="space-y-2 text-gray-300">
+				<div class="mb-4 text-slate-300">KHALED(1) Developer Manual KHALED(1)</div>
+				<div class="space-y-2 text-slate-300">
 					<div><span class="font-bold text-green-400">NAME</span></div>
 					<div class="ml-8">khaled - Senior Software Engineer, Full-stack Developer</div>
 					<div class="mt-4"><span class="font-bold text-green-400">SYNOPSIS</span></div>
@@ -67,18 +67,18 @@
 
 	<!-- Background -->
 	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-gray-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-gray-700 bg-gray-900 px-2 py-1 text-green-400"
+		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
+			<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
 				>cat ~/background.txt</code
 			>
 		</h2>
 		<div class="space-y-6">
-			<div class="rounded-lg border border-gray-700 bg-gray-900/50 p-6">
-				<p class="mb-4 leading-relaxed text-gray-200">
+			<div class="rounded-lg border border-slate-700 bg-slate-900/50 p-6">
+				<p class="mb-4 leading-relaxed text-slate-200">
 					5+ years of experience building web applications that scale. I focus on writing clean,
 					maintainable code and creating user experiences that solve real problems.
 				</p>
-				<p class="leading-relaxed text-gray-300">
+				<p class="leading-relaxed text-slate-300">
 					Currently working with talented teams at
 					<a
 						href="https://qi.iq"
@@ -102,21 +102,21 @@
 
 	<!-- Experience -->
 	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-gray-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-gray-700 bg-gray-900 px-2 py-1 text-green-400"
+		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
+			<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
 				>ls ~/experience/</code
 			>
 		</h2>
 		<div class="space-y-6">
 			{#each experiences as exp}
 				<div
-					class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all hover:border-gray-600"
+					class="rounded-lg border border-slate-700 bg-slate-900/50 p-6 transition-all hover:border-slate-600"
 				>
 					<div class="mb-3 flex flex-col sm:flex-row sm:items-center sm:justify-between">
 						<h3 class="text-xl font-semibold text-white">
 							{exp.title}
 						</h3>
-						<span class="mt-1 text-sm text-gray-400 sm:mt-0">
+						<span class="mt-1 text-sm text-slate-400 sm:mt-0">
 							{exp.period}
 						</span>
 					</div>
@@ -130,7 +130,7 @@
 							{exp.company}
 						</a>
 					</div>
-					<p class="text-sm leading-relaxed text-gray-300">
+					<p class="text-sm leading-relaxed text-slate-300">
 						{exp.description}
 					</p>
 				</div>
@@ -140,29 +140,29 @@
 
 	<!-- Skills -->
 	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-gray-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-gray-700 bg-gray-900 px-3 py-1 text-green-400"
+		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
+			<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
 				>find ~/skills -type f</code
 			>
 		</h2>
 
 		<!-- Terminal-style skills listing -->
-		<div class="rounded-lg border border-gray-700 bg-black/60 p-6 text-sm">
-			<div class="mb-4 text-gray-300">Available technologies and tools:</div>
+		<div class="rounded-lg border border-slate-700 bg-black/60 p-6 text-sm">
+			<div class="mb-4 text-slate-300">Available technologies and tools:</div>
 			{#each Object.entries(skills) as [category, items]}
 				<div class="mb-6">
-					<div class="mb-2 text-gray-300">
+					<div class="mb-2 text-slate-300">
 						<span class="text-green-400">drwxr-xr-x</span> 2 khaled dev 4096 Sep 22 2025
 						<span class="text-cyan-400">{category.toLowerCase()}/</span>
 					</div>
 					<div class="ml-8 space-y-1">
 						{#each items as skill}
 							<div
-								class="group cursor-pointer rounded px-2 py-1 text-gray-400 transition-all hover:bg-gray-800/50 hover:text-gray-300"
+								class="group cursor-pointer rounded px-2 py-1 text-slate-400 transition-all hover:bg-slate-800/50 hover:text-slate-300"
 							>
 								<span class="text-green-400">-rw-r--r--</span>
-								<span class="text-gray-400">1 khaled dev</span>
-								<span class="rounded px-1 group-hover:bg-gray-700/50 group-hover:text-gray-200"
+								<span class="text-slate-400">1 khaled dev</span>
+								<span class="rounded px-1 group-hover:bg-slate-700/50 group-hover:text-slate-200"
 									>{skill}</span
 								>
 							</div>
@@ -175,83 +175,83 @@
 		<!-- Interactive Commands -->
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 			<div
-				class="rounded-lg border border-gray-700 bg-gray-900/50 p-4 transition-all duration-300 hover:border-gray-600"
+				class="rounded-lg border border-slate-700 bg-slate-900/50 p-4 transition-all duration-300 hover:border-slate-600"
 			>
 				<div class="text-sm">
 					<div class="text-green-400">$ which editor</div>
-					<div class="text-gray-300">/usr/bin/nvim</div>
-					<div class="mt-2 text-xs text-gray-400">Vim user since 2019 [>_]</div>
+					<div class="text-slate-300">/usr/bin/nvim</div>
+					<div class="mt-2 text-xs text-slate-400">Vim user since 2019 [>_]</div>
 				</div>
 			</div>
 
 			<div
-				class="rounded-lg border border-gray-700 bg-gray-900/50 p-4 transition-all duration-300 hover:border-gray-600"
+				class="rounded-lg border border-slate-700 bg-slate-900/50 p-4 transition-all duration-300 hover:border-slate-600"
 			>
 				<div class="text-sm">
 					<div class="text-green-400">$ echo $SHELL</div>
-					<div class="text-gray-300">/usr/bin/fish</div>
-					<div class="mt-2 text-xs text-gray-400">Fish shell {'><(((°>'}</div>
+					<div class="text-slate-300">/usr/bin/fish</div>
+					<div class="mt-2 text-xs text-slate-400">Fish shell {'><(((°>'}</div>
 				</div>
 			</div>
 
 			<div
-				class="rounded-lg border border-gray-700 bg-gray-900/50 p-4 transition-all duration-300 hover:border-gray-600"
+				class="rounded-lg border border-slate-700 bg-slate-900/50 p-4 transition-all duration-300 hover:border-slate-600"
 			>
 				<div class="text-sm">
 					<div class="text-green-400">$ uname -r</div>
-					<div class="text-gray-300">6.16.8-arch1-1</div>
-					<div class="mt-2 text-xs text-gray-400">Arch Linux BTW ^_^</div>
+					<div class="text-slate-300">6.16.8-arch1-1</div>
+					<div class="mt-2 text-xs text-slate-400">Arch Linux BTW ^_^</div>
 				</div>
 			</div>
 
 			<div
-				class="rounded-lg border border-gray-700 bg-gray-900/50 p-4 transition-all duration-300 hover:border-gray-600"
+				class="rounded-lg border border-slate-700 bg-slate-900/50 p-4 transition-all duration-300 hover:border-slate-600"
 			>
 				<div class="text-sm">
 					<div class="text-green-400">$ go version</div>
-					<div class="text-gray-300">go version go1.21.0 linux/amd64</div>
-					<div class="mt-2 text-xs text-gray-400">Gopher for life \o/</div>
+					<div class="text-slate-300">go version go1.21.0 linux/amd64</div>
+					<div class="mt-2 text-xs text-slate-400">Gopher for life \o/</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Contact -->
-	<section class="mx-auto max-w-3xl space-y-6 border-t border-gray-800 pt-12">
+	<section class="mx-auto max-w-3xl space-y-6 border-t border-slate-800 pt-12">
 		<h2 class="text-center text-2xl font-semibold text-white">
-			<code class="rounded border border-gray-700 bg-gray-900 px-3 py-1 text-green-400"
+			<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
 				>./get_in_touch.sh</code
 			>
 		</h2>
 
 		<!-- Contact Info -->
-		<div class="rounded-lg border border-gray-700 bg-black/60 p-6 text-sm">
+		<div class="rounded-lg border border-slate-700 bg-black/60 p-6 text-sm">
 			<div class="space-y-2">
 				<div class="text-green-400">$ curl -s https://api.khaled.dev/contact</div>
-				<div class="text-gray-300">{'{'}</div>
-				<div class="ml-4 text-gray-300">
+				<div class="text-slate-300">{'{'}</div>
+				<div class="ml-4 text-slate-300">
 					"status": "<span class="text-green-300">available</span>",
 				</div>
-				<div class="ml-4 text-gray-300">
+				<div class="ml-4 text-slate-300">
 					"email": "<span class="text-cyan-400">khaled@example.com</span>",
 				</div>
-				<div class="ml-4 text-gray-300">
+				<div class="ml-4 text-slate-300">
 					"linkedin": "<span class="text-cyan-400">linkedin.com/in/khaledwaleed</span>",
 				</div>
-				<div class="ml-4 text-gray-300">
+				<div class="ml-4 text-slate-300">
 					"github": "<span class="text-cyan-400">github.com/khaledwaleed</span>",
 				</div>
-				<div class="ml-4 text-gray-300">
+				<div class="ml-4 text-slate-300">
 					"location": "<span class="text-green-300">remote-friendly</span>",
 				</div>
-				<div class="ml-4 text-gray-300">
+				<div class="ml-4 text-slate-300">
 					"interests": ["<span class="text-violet-400">web development</span>", "<span
 						class="text-violet-400">scalable systems</span
 					>", "<span class="text-violet-400">clean code</span>"]
 				</div>
-				<div class="text-gray-300">{'}'}</div>
+				<div class="text-slate-300">{'}'}</div>
 				<div class="mt-4 text-green-400">$ echo "Let's build something great together"</div>
-				<div class="text-gray-300">Let's build something great together</div>
+				<div class="text-slate-300">Let's build something great together</div>
 			</div>
 		</div>
 
@@ -259,14 +259,14 @@
 		<div class="flex flex-col justify-center gap-4 sm:flex-row">
 			<a
 				href="mailto:khaled@example.com"
-				class="inline-flex items-center justify-center rounded-md border border-stone-600 bg-stone-800 px-6 py-3 text-sm font-medium text-gray-200 shadow-lg transition-all duration-200 hover:bg-gray-700"
+				class="inline-flex items-center justify-center rounded-md border border-stone-600 bg-stone-800 px-6 py-3 text-sm font-medium text-slate-200 shadow-lg transition-all duration-200 hover:bg-slate-700"
 			>
 				<span class="mr-2">$</span>
 				echo "Hello" | mail khaled
 			</a>
 			<a
 				href="/"
-				class="inline-flex items-center justify-center rounded-md border border-stone-600 px-6 py-3 text-sm font-medium text-gray-300 transition-all duration-200 hover:bg-gray-800/50"
+				class="inline-flex items-center justify-center rounded-md border border-stone-600 px-6 py-3 text-sm font-medium text-slate-300 transition-all duration-200 hover:bg-slate-800/50"
 			>
 				<span class="mr-2">$</span>
 				cd ~
@@ -274,9 +274,9 @@
 		</div>
 
 		<!-- Footer -->
-		<div class="text-center text-sm text-gray-500">
-			<div class="mt-8 rounded border border-gray-700 bg-gray-900/20 p-4">
-				<span class="text-gray-400">"Code is poetry written for machines to understand."</span>
+		<div class="text-center text-sm text-slate-500">
+			<div class="mt-8 rounded border border-slate-700 bg-slate-900/20 p-4">
+				<span class="text-slate-400">"Code is poetry written for machines to understand."</span>
 			</div>
 		</div>
 	</section>
