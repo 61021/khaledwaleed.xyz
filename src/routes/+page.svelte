@@ -71,18 +71,18 @@
 		<!-- Terminal Window -->
 		<div class="mx-auto max-w-4xl">
 			<!-- Terminal Header -->
-			<div class="flex items-center justify-between rounded-t-lg bg-stone-800 px-4 py-3">
+			<div class="flex items-center justify-between rounded-t-lg bg-gray-900 px-4 py-3">
 				<div class="flex space-x-2">
-					<div class="h-3 w-3 rounded-full bg-red-500"></div>
-					<div class="h-3 w-3 rounded-full bg-yellow-500"></div>
-					<div class="h-3 w-3 rounded-full bg-green-500"></div>
+					<div class="h-3 w-3 rounded-full bg-red-600"></div>
+					<div class="h-3 w-3 rounded-full bg-yellow-600"></div>
+					<div class="h-3 w-3 rounded-full bg-green-600"></div>
 				</div>
-				<div class="text-sm text-stone-400">khaled@arch:~$</div>
+				<div class="text-sm text-gray-300">khaled@arch:~$</div>
 				<div class="w-16"></div>
 			</div>
 
 			<!-- Terminal Content -->
-			<div class="min-h-[400px] rounded-b-lg bg-black p-6 text-sm">
+			<div class="min-h-[400px] rounded-b-lg border border-gray-800 bg-black p-6 text-sm">
 				<div class="text-green-400">
 					<pre class="leading-relaxed whitespace-pre-wrap">{terminalText}</pre>
 					<span class="text-green-400" class:opacity-100={showCursor} class:opacity-0={!showCursor}
@@ -95,37 +95,37 @@
 		<!-- Core Skills -->
 		<div class="mx-auto grid max-w-4xl grid-cols-1 gap-6 md:grid-cols-3">
 			<div
-				class="rounded-lg border border-stone-800/50 bg-stone-900/30 p-6 transition-all duration-300 hover:border-stone-600"
+				class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-green-400/10"
 			>
 				<div class="mb-4 flex items-center space-x-3">
 					<div class="font-mono text-xl text-green-400">{'</>'}</div>
-					<h3 class="text-lg font-semibold text-stone-200">Frontend</h3>
+					<h3 class="text-lg font-semibold text-white">Frontend</h3>
 				</div>
-				<p class="text-sm text-stone-400">
+				<p class="text-sm text-gray-300">
 					SvelteKit, Nuxt.js, TypeScript. Building fast, modern web applications.
 				</p>
 			</div>
 
 			<div
-				class="rounded-lg border border-stone-800/50 bg-stone-900/30 p-6 transition-all duration-300 hover:border-stone-600"
+				class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/10"
 			>
 				<div class="mb-4 flex items-center space-x-3">
-					<div class="font-mono text-xl text-blue-400">[GO]</div>
-					<h3 class="text-lg font-semibold text-stone-200">Backend</h3>
+					<div class="font-mono text-xl text-cyan-400">[GO]</div>
+					<h3 class="text-lg font-semibold text-white">Backend</h3>
 				</div>
-				<p class="text-sm text-stone-400">
+				<p class="text-sm text-gray-300">
 					Golang services, APIs, microservices. Fast, concurrent, reliable systems.
 				</p>
 			</div>
 
 			<div
-				class="rounded-lg border border-stone-800/50 bg-stone-900/30 p-6 transition-all duration-300 hover:border-stone-600"
+				class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all duration-300 hover:border-violet-400 hover:shadow-lg hover:shadow-violet-400/10"
 			>
 				<div class="mb-4 flex items-center space-x-3">
-					<div class="font-mono text-xl text-red-400">[#]</div>
-					<h3 class="text-lg font-semibold text-stone-200">DevOps</h3>
+					<div class="font-mono text-xl text-violet-400">[#]</div>
+					<h3 class="text-lg font-semibold text-white">DevOps</h3>
 				</div>
-				<p class="text-sm text-stone-400">
+				<p class="text-sm text-gray-300">
 					Docker, K8s, CI/CD, Arch Linux. Infrastructure that just works.
 				</p>
 			</div>
@@ -134,8 +134,8 @@
 
 	<!-- About -->
 	<section class="mx-auto max-w-2xl space-y-6 text-center">
-		<div class="rounded-lg border border-stone-800/50 bg-stone-900/20 p-6">
-			<p class="text-lg leading-relaxed text-stone-300">
+		<div class="rounded-lg border border-gray-700 bg-gray-900/30 p-6">
+			<p class="text-lg leading-relaxed text-gray-200">
 				Senior Software Engineer specializing in SvelteKit/Nuxt frontends and Go backends. Currently
 				building scalable applications at Qi and Vitex.
 			</p>
@@ -144,7 +144,7 @@
 		<div class="flex justify-center">
 			<a
 				href="/about"
-				class="inline-flex items-center rounded-md border border-stone-600 bg-stone-800 px-6 py-3 text-sm font-medium text-stone-200 shadow-lg transition-all duration-200 hover:bg-stone-700"
+				class="inline-flex items-center rounded-md border border-green-400 bg-gray-900 px-6 py-3 text-sm font-medium text-green-400 shadow-lg transition-all duration-200 hover:bg-green-400 hover:text-black hover:shadow-green-400/20"
 			>
 				<span class="mr-2">$</span>
 				cat about.txt
@@ -161,59 +161,101 @@
 	</section>
 
 	<!-- Tech Stack -->
-	<section class="border-t border-stone-800 pt-12">
+	<section class="border-t border-gray-800 pt-12">
 		<div class="space-y-8">
-			<h2 class="text-center text-2xl font-semibold text-stone-200">
-				<code class="rounded bg-stone-800 px-3 py-1">cat /etc/tech-stack</code>
+			<h2 class="text-center text-2xl font-semibold text-white">
+				<code class="rounded border border-gray-700 bg-gray-900 px-3 py-1 text-green-400"
+					>cat /etc/tech-stack</code
+				>
 			</h2>
 
 			<!-- Technologies -->
-			<div class="mx-auto max-w-4xl rounded-lg border border-stone-700 bg-stone-900/40 p-6">
+			<div class="mx-auto max-w-4xl rounded-lg border border-gray-700 bg-black/60 p-6">
 				<div class="space-y-4 text-sm">
 					{#each [{ name: 'TypeScript', level: 95, command: 'tsc --strict --noEmit' }, { name: 'SvelteKit', level: 98, command: 'npm run dev' }, { name: 'Nuxt.js', level: 90, command: 'npm run build' }, { name: 'Golang', level: 85, command: 'go run main.go' }, { name: 'Docker/K8s', level: 80, command: 'docker compose up -d' }, { name: 'PostgreSQL', level: 75, command: 'psql -U postgres' }, { name: 'Arch Linux', level: 100, command: 'sudo pacman -Syu' }] as tech}
-						<div class="group cursor-pointer rounded p-3 transition-all hover:bg-stone-800/50">
+						<div
+							class="group cursor-pointer rounded p-3 transition-all hover:border-l-4 hover:border-l-green-400 hover:bg-gray-800/50"
+						>
 							<div class="mb-2 flex items-center justify-between">
 								<span class="text-xs text-green-400">$ {tech.command}</span>
-								<span class="text-stone-300">{tech.level}%</span>
+								<span class="text-white">{tech.level}%</span>
 							</div>
-							<div class="h-2 w-full rounded-full bg-stone-800">
+							<div class="h-2 w-full rounded-full bg-gray-800">
 								<div
-									class="h-2 rounded-full bg-gradient-to-r from-stone-500 to-stone-400 transition-all duration-1000 group-hover:from-green-600 group-hover:to-green-500"
+									class="h-2 rounded-full bg-gradient-to-r from-gray-600 to-gray-500 transition-all duration-1000 group-hover:from-green-400 group-hover:to-cyan-400 group-hover:shadow-lg group-hover:shadow-green-400/30"
 									style="width: {tech.level}%"
 								></div>
 							</div>
-							<div class="mt-1 text-xs text-stone-500">{tech.name}</div>
+							<div class="mt-1 text-xs text-gray-400 transition-colors group-hover:text-white">
+								{tech.name}
+							</div>
 						</div>
 					{/each}
 				</div>
 			</div>
 
 			<!-- Current Status -->
-			<div class="mx-auto max-w-2xl rounded-lg border border-stone-700 bg-stone-900/50 p-6">
+			<div class="mx-auto max-w-2xl rounded-lg border border-gray-700 bg-gray-900/60 p-6">
 				<div class="flex items-center space-x-4 text-sm">
 					<div class="flex items-center space-x-2">
-						<div class="h-3 w-3 animate-pulse rounded-full bg-green-500"></div>
-						<span class="text-green-400">STATUS: AVAILABLE FOR WORK</span>
+						<div
+							class="h-3 w-3 animate-pulse rounded-full bg-green-400 shadow-lg shadow-green-400/50"
+						></div>
+						<span class="font-semibold text-green-400">STATUS: AVAILABLE FOR WORK</span>
 					</div>
 				</div>
-				<div class="mt-4 space-y-1 text-sm text-stone-400">
+				<div class="mt-4 space-y-1 text-sm text-gray-300">
 					<div>
-						<code class="text-stone-300">Location:</code>
-						<span class="text-stone-300">Remote-friendly</span>
+						<code class="text-cyan-400">Location:</code>
+						<span class="text-white">Remote-friendly</span>
 					</div>
 					<div>
-						<code class="text-stone-300">Experience:</code>
-						<span class="text-stone-300">5+ years in production</span>
+						<code class="text-cyan-400">Experience:</code>
+						<span class="text-white">5+ years in production</span>
 					</div>
 					<div>
-						<code class="text-stone-300">Focus:</code>
-						<span class="text-stone-300">Full-stack web development</span>
+						<code class="text-cyan-400">Focus:</code>
+						<span class="text-white">Full-stack web development</span>
 					</div>
 					<div>
-						<code class="text-stone-300">Stack:</code>
-						<span class="text-stone-300">SvelteKit + Go + PostgreSQL</span>
+						<code class="text-cyan-400">Stack:</code>
+						<span class="text-white">SvelteKit + Go + PostgreSQL</span>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Likes -->
+	<section class="border-t border-gray-800 pt-12">
+		<div class="space-y-8">
+			<h2 class="text-center text-2xl font-semibold text-white">
+				<code class="rounded border border-gray-700 bg-gray-900 px-3 py-1 text-green-400"
+					>grep -r "interests" ~/life/</code
+				>
+			</h2>
+
+			<!-- Categories -->
+			<div class="mx-auto max-w-4xl space-y-6">
+				{#each [{ category: 'Food', icon: '[#]', items: ['Ramen', 'Middle Eastern', 'Coffee', 'Dark Chocolate', 'Sushi'] }, { category: 'Sports', icon: '[*]', items: ['Tennis', 'Swimming', 'Cycling', 'Chess', 'Hiking'] }, { category: 'Tech', icon: '[+]', items: ['Mechanical Keyboards', 'Linux Ricing', 'Self-hosting', 'Open Source', 'Vim'] }, { category: 'Media', icon: '[~]', items: ['Sci-fi Movies', 'Tech Documentaries', 'Podcasts', 'Audiobooks', 'Anime'] }, { category: 'Hobbies', icon: '[&]', items: ['Photography', 'Music Production', 'Gaming', 'Reading', 'Cooking'] }] as like}
+					<div
+						class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all hover:border-cyan-400 hover:bg-gray-800/50"
+					>
+						<div class="mb-4 flex items-center space-x-3">
+							<div class="font-mono text-lg text-cyan-400">{like.icon}</div>
+							<h3 class="text-lg font-semibold text-white">{like.category}</h3>
+						</div>
+						<div class="flex flex-wrap gap-2">
+							{#each like.items as item}
+								<span
+									class="rounded-full border border-gray-600 bg-gray-800/50 px-3 py-1 text-sm text-gray-300 transition-colors hover:border-green-400 hover:text-white"
+								>
+									{item}
+								</span>
+							{/each}
+						</div>
+					</div>
+				{/each}
 			</div>
 		</div>
 	</section>
