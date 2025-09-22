@@ -235,27 +235,23 @@
 				>
 			</h2>
 
-			<!-- Categories -->
-			<div class="mx-auto max-w-4xl space-y-6">
-				{#each [{ category: 'Food', icon: '[#]', items: ['Ramen', 'Middle Eastern', 'Coffee', 'Dark Chocolate', 'Sushi'] }, { category: 'Sports', icon: '[*]', items: ['Tennis', 'Swimming', 'Cycling', 'Chess', 'Hiking'] }, { category: 'Tech', icon: '[+]', items: ['Mechanical Keyboards', 'Linux Ricing', 'Self-hosting', 'Open Source', 'Vim'] }, { category: 'Media', icon: '[~]', items: ['Sci-fi Movies', 'Tech Documentaries', 'Podcasts', 'Audiobooks', 'Anime'] }, { category: 'Hobbies', icon: '[&]', items: ['Photography', 'Music Production', 'Gaming', 'Reading', 'Cooking'] }] as like}
-					<div
-						class="rounded-lg border border-gray-700 bg-gray-900/50 p-6 transition-all hover:border-cyan-400 hover:bg-gray-800/50"
-					>
-						<div class="mb-4 flex items-center space-x-3">
-							<div class="font-mono text-lg text-cyan-400">{like.icon}</div>
-							<h3 class="text-lg font-semibold text-white">{like.category}</h3>
-						</div>
-						<div class="flex flex-wrap gap-2">
-							{#each like.items as item}
-								<span
-									class="rounded-full border border-gray-600 bg-gray-800/50 px-3 py-1 text-sm text-gray-300 transition-colors hover:border-green-400 hover:text-white"
-								>
-									{item}
-								</span>
-							{/each}
-						</div>
-					</div>
-				{/each}
+			<div class="mx-auto max-w-2xl text-center">
+				<p class="mb-6 text-lg text-gray-300">Want to know what I'm into?</p>
+				<a
+					href="/likes"
+					class="inline-flex items-center rounded-md border border-cyan-400 bg-gray-900 px-6 py-3 text-sm font-medium text-cyan-400 shadow-lg transition-all duration-200 hover:bg-cyan-400 hover:text-black hover:shadow-cyan-400/20"
+				>
+					<span class="mr-2">$</span>
+					cat ~/interests.md
+					<svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M13 7l5 5m0 0l-5 5m5-5H6"
+						/>
+					</svg>
+				</a>
 			</div>
 		</div>
 	</section>

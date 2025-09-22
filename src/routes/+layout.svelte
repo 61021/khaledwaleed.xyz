@@ -6,7 +6,8 @@
 
 	const navigation = [
 		{ name: 'Home', href: '/' },
-		{ name: 'About', href: '/about' }
+		{ name: 'About', href: '/about' },
+		{ name: 'Likes', href: '/likes' }
 	];
 
 	function isCurrentPage(href: string, currentPath: string): boolean {
