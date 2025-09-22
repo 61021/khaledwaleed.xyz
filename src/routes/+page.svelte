@@ -83,7 +83,7 @@
 
 			<!-- Terminal Content -->
 			<div class="min-h-[400px] rounded-b-lg border border-gray-800 bg-black p-6 text-sm">
-				<div class="text-green-400">
+				<div class="text-white">
 					<pre class="leading-relaxed whitespace-pre-wrap">{terminalText}</pre>
 					<span class="text-green-400" class:opacity-100={showCursor} class:opacity-0={!showCursor}
 						>█</span
