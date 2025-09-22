@@ -1,0 +1,110 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Dark Academia Theme Variables */
+:root {
+	--font-serif: 'EB Garamond', 'Crimson Text', Georgia, 'Times New Roman', serif;
+	--font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Courier New', monospace;
+}
+
+/* Base Styles */
+* {
+	@apply antialiased;
+}
+
+body {
+	font-family: var(--font-mono);
+	@apply bg-stone-950 text-stone-100;
+	font-feature-settings:
+		'liga' 1,
+		'kern' 1;
+}
+
+/* Typography Enhancements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-mono);
+	@apply font-semibold tracking-tight;
+	line-height: 1.2;
+}
+
+p {
+	@apply leading-relaxed;
+	font-feature-settings:
+		'liga' 1,
+		'kern' 1;
+}
+
+/* Links */
+a {
+	@apply transition-colors duration-200;
+}
+
+/* Code blocks */
+code,
+pre {
+	font-family: var(--font-mono);
+}
+
+/* Selection styling */
+::selection {
+	@apply bg-amber-600/30 text-amber-100;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+	@apply w-2;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-stone-900;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply rounded-full bg-stone-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-stone-600;
+}
+
+/* Focus styles */
+*:focus {
+	@apply ring-2 ring-amber-500/50 ring-offset-2 ring-offset-stone-950 outline-none;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fade-in {
+	animation: fadeIn 0.6s ease-out;
+}
+
+/* Academic paper-like styling for content blocks */
+.academic-block {
+	@apply rounded-lg border border-stone-800/50 bg-stone-900/30 p-6 shadow-lg;
+	backdrop-filter: blur(8px);
+}
+
+/* Elegant dividers */
+.academic-divider {
+	@apply relative my-8 border-t border-amber-600/20;
+}
+
+.academic-divider::after {
+	content: '❦';
+	@apply absolute left-1/2 -translate-x-1/2 -translate-y-1/2 transform bg-stone-950 px-4 text-amber-600/60;
+}
