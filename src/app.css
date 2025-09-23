@@ -95,7 +95,7 @@ pre {
 
 /* Academic paper-like styling for content blocks */
 .academic-block {
-	@apply rounded-lg border border-stone-800/50 bg-stone-900/30 p-6 shadow-lg;
+	@apply rounded-lg border border-slate-800/50 bg-slate-900/30 p-6 shadow-lg;
 	backdrop-filter: blur(8px);
 }
 
@@ -106,5 +106,5 @@ pre {
 
 .academic-divider::after {
 	content: '❦';
-	@apply absolute left-1/2 -translate-x-1/2 -translate-y-1/2 transform bg-stone-950 px-4 text-amber-600/60;
+	@apply absolute left-1/2 -translate-x-1/2 -translate-y-1/2 transform bg-slate-950 px-4 text-amber-600/60;
 }

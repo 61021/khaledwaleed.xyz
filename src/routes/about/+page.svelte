@@ -6,8 +6,7 @@
 			title: 'Senior Software Engineer',
 			company: 'Qi',
 			period: 'Current',
-			description:
-				'Building SvelteKit applications and Go microservices for scalable web platforms.',
+			description: 'Leading the development of the frontend for multiple projects.',
 			url: 'https://qi.iq'
 		},
 		{
@@ -38,21 +37,19 @@
 <div class="animate-fade-in space-y-16">
 	<!-- Page Header -->
 	<section class="space-y-8 text-center">
-		<div class="space-y-4">
+		<div class="space-y-8">
 			<h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">
 				<code class="rounded border border-slate-700 bg-slate-900 px-4 py-2 text-green-400"
 					>man khaled</code
 				>
 			</h1>
-			<div
-				class="mx-auto max-w-3xl rounded-lg border border-slate-700 bg-black/60 p-6 text-left text-sm"
-			>
+			<div class="mx-auto rounded-lg border border-slate-700 bg-black/60 p-6 text-left text-sm">
 				<div class="mb-4 text-slate-300">KHALED(1) Developer Manual KHALED(1)</div>
 				<div class="space-y-2 text-slate-300">
 					<div><span class="font-bold text-green-400">NAME</span></div>
-					<div class="ml-8">khaled - Senior Software Engineer, Full-stack Developer</div>
+					<div class="ml-8">khaled - Senior Software Engineer</div>
 					<div class="mt-4"><span class="font-bold text-green-400">SYNOPSIS</span></div>
-					<div class="ml-8">khaled [--frontend] [--backend] [--fullstack] [--remote]</div>
+					<div class="ml-8">khaled [--frontend] [--backend]</div>
 					<div class="mt-4"><span class="font-bold text-green-400">DESCRIPTION</span></div>
 					<div class="ml-8">
 						Experienced software engineer specializing in modern web development.
@@ -66,17 +63,15 @@
 	</section>
 
 	<!-- Background -->
-	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
-				>cat ~/background.txt</code
-			>
-		</h2>
+	<section class="mx-auto space-y-6">
+		<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
+			>cat ~/background.txt</code
+		>
 		<div class="space-y-6">
 			<div class="rounded-lg border border-slate-700 bg-slate-900/50 p-6">
 				<p class="mb-4 leading-relaxed text-slate-200">
 					5+ years of experience building web applications that scale. I focus on writing clean,
-					maintainable code and creating user experiences that solve real problems.
+					maintainable code and creating user experiences that feel alive.
 				</p>
 				<p class="leading-relaxed text-slate-300">
 					Currently working with talented teams at
@@ -101,12 +96,10 @@
 	</section>
 
 	<!-- Experience -->
-	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
-				>ls ~/experience/</code
-			>
-		</h2>
+	<section class="mx-auto space-y-6">
+		<code class="rounded border border-slate-700 bg-slate-900 px-2 py-1 text-green-400"
+			>ls ~/current/</code
+		>
 		<div class="space-y-6">
 			{#each experiences as exp}
 				<div
@@ -139,12 +132,10 @@
 	</section>
 
 	<!-- Skills -->
-	<section class="mx-auto max-w-3xl space-y-6">
-		<h2 class="border-b border-slate-800 pb-2 text-2xl font-semibold text-white">
-			<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
-				>find ~/skills -type f</code
-			>
-		</h2>
+	<section class="mx-auto space-y-6">
+		<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
+			>find ~/skills -type f</code
+		>
 
 		<!-- Terminal-style skills listing -->
 		<div class="rounded-lg border border-slate-700 bg-black/60 p-6 text-sm">
@@ -179,8 +170,8 @@
 			>
 				<div class="text-sm">
 					<div class="text-green-400">$ which editor</div>
-					<div class="text-slate-300">/usr/bin/nvim</div>
-					<div class="mt-2 text-xs text-slate-400">Vim user since 2019 [>_]</div>
+					<div class="text-slate-300">/usr/bin/cursor</div>
+					<div class="mt-2 text-xs text-slate-400">Multitasking with Cursor [>_]</div>
 				</div>
 			</div>
 
@@ -200,7 +191,7 @@
 				<div class="text-sm">
 					<div class="text-green-400">$ uname -r</div>
 					<div class="text-slate-300">6.16.8-arch1-1</div>
-					<div class="mt-2 text-xs text-slate-400">Arch Linux BTW ^_^</div>
+					<div class="mt-2 text-xs text-slate-400">I use Arch BTW</div>
 				</div>
 			</div>
 
@@ -217,38 +208,50 @@
 	</section>
 
 	<!-- Contact -->
-	<section class="mx-auto max-w-3xl space-y-6 border-t border-slate-800 pt-12">
-		<h2 class="text-center text-2xl font-semibold text-white">
-			<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
-				>./get_in_touch.sh</code
-			>
-		</h2>
+	<section class="mx-auto space-y-6 border-t border-slate-800 pt-12">
+		<code class="rounded border border-slate-700 bg-slate-900 px-3 py-1 text-green-400"
+			>./get_in_touch.sh</code
+		>
 
 		<!-- Contact Info -->
 		<div class="rounded-lg border border-slate-700 bg-black/60 p-6 text-sm">
 			<div class="space-y-2">
-				<div class="text-green-400">$ curl -s https://api.khaled.dev/contact</div>
+				<div class="text-green-400">$ curl -s https://api.khaledwaleed.xyz/contact</div>
 				<div class="text-slate-300">{'{'}</div>
 				<div class="ml-4 text-slate-300">
 					"status": "<span class="text-green-300">available</span>",
 				</div>
 				<div class="ml-4 text-slate-300">
-					"email": "<span class="text-cyan-400">khaled@example.com</span>",
+					"email": "<a href="mailto:contact@khaledwaleed.xyz" class="text-cyan-400"
+						>contact@khaledwaleed.xyz</a
+					>",
 				</div>
 				<div class="ml-4 text-slate-300">
-					"linkedin": "<span class="text-cyan-400">linkedin.com/in/khaledwaleed</span>",
+					"phone": "<a href="tel:+964783857755311" class="text-cyan-400">+964 783 8577 55311</a>",
 				</div>
 				<div class="ml-4 text-slate-300">
-					"github": "<span class="text-cyan-400">github.com/khaledwaleed</span>",
+					"linkedin": "<a href="https://www.linkedin.com/in/kwaleedkhalid/" class="text-cyan-400"
+						>linkedin.com/in/kwaleedkhalid/</a
+					>",
 				</div>
 				<div class="ml-4 text-slate-300">
-					"location": "<span class="text-green-300">remote-friendly</span>",
+					"github": "<a href="https://github.com/61021" class="text-cyan-400">github.com/61021</a>",
 				</div>
 				<div class="ml-4 text-slate-300">
-					"interests": ["<span class="text-violet-400">web development</span>", "<span
-						class="text-violet-400">scalable systems</span
-					>", "<span class="text-violet-400">clean code</span>"]
+					"instagram": "<a href="https://www.instagram.com/khaled.jsx/" class="text-cyan-400"
+						>instagram.com/khaled.jsx/</a
+					>",
 				</div>
+				<div class="ml-4 text-slate-300">
+					"telegram": "<a href="https://t.me/x61021" class="text-cyan-400">t.me/x61021</a>",
+				</div>
+
+				<div class="ml-4 text-slate-300">
+					"whatsapp": "<a href="https://wa.me/message/6N52L7STPCUJO1" class="text-cyan-400"
+						>wa.me/message/6N52L7STPCUJO1</a
+					>",
+				</div>
+
 				<div class="text-slate-300">{'}'}</div>
 				<div class="mt-4 text-green-400">$ echo "Let's build something great together"</div>
 				<div class="text-slate-300">Let's build something great together</div>
@@ -258,15 +261,15 @@
 		<!-- Contact Buttons -->
 		<div class="flex flex-col justify-center gap-4 sm:flex-row">
 			<a
-				href="mailto:khaled@example.com"
-				class="inline-flex items-center justify-center rounded-md border border-stone-600 bg-stone-800 px-6 py-3 text-sm font-medium text-slate-200 shadow-lg transition-all duration-200 hover:bg-slate-700"
+				href="contact@khaledwaleed.xyz "
+				class="inline-flex items-center justify-center rounded-md border border-slate-600 bg-slate-800 px-6 py-3 text-sm font-medium text-slate-200 shadow-lg transition-all duration-200 hover:bg-slate-700"
 			>
 				<span class="mr-2">$</span>
 				echo "Hello" | mail khaled
 			</a>
 			<a
 				href="/"
-				class="inline-flex items-center justify-center rounded-md border border-stone-600 px-6 py-3 text-sm font-medium text-slate-300 transition-all duration-200 hover:bg-slate-800/50"
+				class="inline-flex items-center justify-center rounded-md border border-slate-600 px-6 py-3 text-sm font-medium text-slate-300 transition-all duration-200 hover:bg-slate-800/50"
 			>
 				<span class="mr-2">$</span>
 				cd ~

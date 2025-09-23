@@ -18,7 +18,7 @@
 <div class="min-h-screen bg-black text-white">
 	<!-- Navigation -->
 	<nav class="border-b border-slate-800 bg-black/95 backdrop-blur">
-		<div class="mx-auto max-w-4xl px-6 sm:px-8">
+		<div class="px-6 sm:px-8">
 			<div class="flex h-16 items-center justify-between">
 				<div class="flex items-center space-x-8">
 					<a href="/" class="text-xl font-semibold tracking-wide text-green-400"> khaled@dev:~$ </a>
@@ -43,7 +43,7 @@
 	</nav>
 
 	<!-- Main Content -->
-	<main class="mx-auto max-w-4xl px-6 py-12 sm:px-8">
+	<main class=" px-6 py-8 sm:px-8 lg:py-12">
 		{@render children()}
 	</main>
 </div>

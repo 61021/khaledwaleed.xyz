@@ -17,7 +17,7 @@ title: "My Likes"
 	</div>
 </section>
 
-<div class="mt-12 mx-auto max-w-4xl prose prose-invert prose-lg prose-h1:text-cyan-400 prose-h1:font-mono prose-h1:text-xl prose-ul:text-slate-300">
+<div class="mt-12  prose prose-invert prose-lg prose-h1:text-cyan-400 prose-h1:font-mono prose-h1:text-xl prose-ul:text-slate-300">
 
 # [#] Food
 

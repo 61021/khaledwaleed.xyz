@@ -7,7 +7,7 @@
 		</h2>
 
 		<div
-			class="mx-auto prose prose-lg max-w-4xl prose-invert prose-h1:font-mono prose-h1:text-xl prose-h1:text-cyan-400 prose-ul:text-slate-300"
+			class="mx-auto prose prose-lg prose-invert prose-h1:font-mono prose-h1:text-xl prose-h1:text-cyan-400 prose-ul:text-slate-300"
 		>
 			<h1>[#] Food</h1>
 			<ul>
