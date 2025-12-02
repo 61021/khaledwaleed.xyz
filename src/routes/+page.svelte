@@ -13,7 +13,7 @@
 		'khaled     1337  0.0  0.2  senior_dev  typescript',
 		'$ cat ~/.profile',
 		'export ROLE="Senior Software Engineer"',
-		'export STACK="TypeScript,SvelteKit,Nuxt,Golang"',
+		'export STACK="TypeScript, SvelteKit, Nuxt, Golang"',
 		'export EXPERIENCE="5+ years"',
 		'$ git log --oneline --author="khaled" | head -3',
 		'a1b2c3d Building scalable systems at Qi',
